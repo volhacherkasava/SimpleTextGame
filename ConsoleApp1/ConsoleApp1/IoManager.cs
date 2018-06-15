@@ -10,6 +10,9 @@ namespace SimpleTextGame
     // Created by Siarhei Frunchak
     public class IoManager
     {
+        //line for menu step constructions
+        private const string tableLine = "#####################################################################################";
+        
         //Read line method
         public void Read()
         {
@@ -20,5 +23,12 @@ namespace SimpleTextGame
         {
             Console.WriteLine(msg);
         }
+
+        //Write method for menu steps
+        public void WriteStepMessage(string msg)
+        {
+            Console.WriteLine($"{tableLine}{Environment.NewLine}{msg}{Environment.NewLine}{tableLine}");
+        }
+
     }
 }
