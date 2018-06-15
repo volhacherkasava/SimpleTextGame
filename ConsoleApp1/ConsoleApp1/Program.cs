@@ -6,8 +6,11 @@ namespace SimpleTextGame
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Console.ReadKey();
+            var ioManager = new IoManager();
+
+            ioManager.WriteStepMessage("Hello!");
+
+            ioManager.Read();
         }
     }
 }
