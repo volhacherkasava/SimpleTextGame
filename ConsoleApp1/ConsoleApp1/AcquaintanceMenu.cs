@@ -13,7 +13,7 @@ namespace SimpleTextGame
             var ioM = new IoManager();
 
             string playerName = ioM.ReadName();
-            ioM.WriteStepMessage($"Are you ready? Have a nice adventure, {playerName}!");
+            ioM.WriteStepMessage("Are you ready? Have a nice adventure, " + playerName +"!");
         }
     }
 }

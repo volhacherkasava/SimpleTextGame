@@ -27,7 +27,8 @@ namespace SimpleTextGame
         //Write method for menu steps
         public void WriteStepMessage(string msg)
         {
-            Console.WriteLine($"{tableLine}{Environment.NewLine}{msg}{Environment.NewLine}{tableLine}");
+            //Console.WriteLine($"{tableLine}{Environment.NewLine}{msg}{Environment.NewLine}{tableLine}");
+            Console.WriteLine(tableLine + Environment.NewLine + msg + Environment.NewLine + tableLine);
         }
 
         //Menu steps reader
