@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AcquaintanceMenu.cs" />
+    <Compile Include="Constants\TextContainer.cs" />
     <Compile Include="IoManager.cs" />
     <Compile Include="MainMenu.cs" />
     <Compile Include="Program.cs" />

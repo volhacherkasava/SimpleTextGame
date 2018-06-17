@@ -14,7 +14,7 @@
 
             if (menuResponse == "Y")
             {
-                ioM.WriteStepMessage("Great! Whats your name? My name is Isis!");
+                ioM.WriteStepMessage("Great! Whats your name? My name is Wall-E!");
                 acquantance.Acquaintance();
                 //don't forget delete this readline
                 ioM.Read();
