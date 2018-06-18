@@ -1,4 +1,4 @@
 # SimpleTextGame
-training project
+Training project
 
-It's training project
+It's a training project
