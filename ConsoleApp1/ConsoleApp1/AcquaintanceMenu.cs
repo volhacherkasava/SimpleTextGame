@@ -9,6 +9,7 @@
             string playerName = ioM.ReadName();
             ioM.WriteStepMessage("Are you ready? =^.^= Have a nice adventure =^.^=, " + playerName +"!");
             ioM.WriteStepMessage(TextContainer.earthText);
+            ioM.WriteStepMessage(TextContainer.gravityText);
         }
     }
 }
