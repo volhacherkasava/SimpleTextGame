@@ -11,7 +11,7 @@ namespace SimpleTextGame
     public class IoManager
     {
         //line for menu step constructions
-        private const string tableLine = "#####################################################################################";
+        private const string tableLine = "-------------------------------------------------------------------------";
         
         //Read line method
         public void Read()
@@ -27,8 +27,22 @@ namespace SimpleTextGame
         //Write method for menu steps
         public void WriteStepMessage(string msg)
         {
-            Console.WriteLine($"{tableLine}{Environment.NewLine}{msg}{Environment.NewLine}{tableLine}");
+            //Console.WriteLine($"{tableLine}{Environment.NewLine}{msg}{Environment.NewLine}{tableLine}");
+            Console.WriteLine(tableLine + Environment.NewLine + msg + Environment.NewLine + tableLine);
         }
 
+        //Menu steps reader
+        public string ReadMenuStep()
+        {
+            string menuResponseStep = string.Empty;
+            menuResponseStep = Console.ReadLine().ToUpper();
+            return menuResponseStep;
+        }
+
+        public string ReadName()
+        {
+            string name = Console.ReadLine();
+            return name;
+        }
     }
 }
